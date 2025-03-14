@@ -1,0 +1,6 @@
+somelineoftext
+/n/nand another line of text
+\n\nand tis time the newlines actually work, because they are backslashes
+
+
+ but apparently the real trick is to use the enable flag, so echo -e and then your text incl. newlines
